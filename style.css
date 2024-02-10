@@ -1,0 +1,66 @@
+/* Set font family and weight for all text */
+html, body {
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: normal;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+#gif {
+  margin-bottom: 0px; /* Add space between the GIF and the heading */
+}
+
+#newContent {
+  clear: both; /* Clear the float to ensure the text starts below the GIF */
+}
+
+.buttons-container {
+  display: flex; /* Display buttons side by side */
+}
+
+.button_1 {
+  background-color: rgb(0, 210, 0);
+  color: white; 
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 10px;
+  margin: 10px; 
+  cursor: pointer;
+  transition: background-color 0.1s;
+}
+
+.button_2 {
+  background-color: red;
+  color: white; 
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 10px;
+  margin: 10px; 
+  cursor: pointer;
+  transition: background-color 0.1s;
+}
+
+.button_1:hover {
+  background-color: rgb(0, 112, 0); /* Darken button color on hover */
+}
+
+.button_2:hover {
+  background-color: rgb(115, 0, 0); /* Darken button color on hover */
+}
+
+#divider {
+  border-left: 2px solid #ccc;
+  height: 40px; /* Adjust height as needed */
+  margin: 0 10px;
+}
